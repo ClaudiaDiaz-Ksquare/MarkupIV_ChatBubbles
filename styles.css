@@ -1,0 +1,52 @@
+body{
+    margin: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+}
+
+img{
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.chat{
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    gap: 6rem;
+}
+
+
+.received{
+    background-color: rgba(238,255,238,255);
+    align-self: flex-start;
+    border-radius: 0.2rem;
+    min-width: 18rem;
+}
+
+.sent{
+    background-color: rgba(240,245,252,255);
+    align-self: flex-end;
+    border-radius: 0.2rem;
+    min-width: 18rem;
+}
+
+p.text{
+    padding: 0 1rem;
+    margin: 1rem 0 0 0;
+}
+
+p.time{
+    color: gray;
+    margin: 0 1rem 1rem 0;
+    font-size: small;
+    text-align: right;
+    text-justify: inter-word;
+}
+
+.material-symbols-outlined.md-20{
+    font-size: 20px;
+    position: relative;
+    top: 0.3rem;
+}
